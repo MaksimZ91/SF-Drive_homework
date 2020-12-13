@@ -1,0 +1,257 @@
+   
+.header{
+position: absolute;
+width: 100%;
+height: 90px;
+left: 0px;
+top: 0px;
+     
+}
+
+ .header__logo{
+   display: inline-block;
+   position: relative;
+   left: 40px;
+   top: 31px;
+ }
+
+ .header__nav {
+  display: inline-block;
+  position: relative;
+  top: 22px;
+  margin-left: 776px;
+}
+.header__list{
+  padding: 0;
+  margin: 0;
+ }
+
+ .header__link{
+  display: inline-block;
+  padding-right: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;   
+}
+.header__link a{
+  text-decoration: none;
+}
+
+.header__button{
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+  padding: 12px 30px;
+  top: 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid rgba(27, 27, 27, 0.4);
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.about{
+  height: 733px;
+  margin-top:90px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+.about__img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  margin-top:61px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 120%;
+  text-align: center;
+  }
+
+  h2{
+  margin-top:48px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  }
+.about_txt {
+  margin-top:30px;
+  display: block;
+  width: 925px;
+  height: 105px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+.contact{
+  background-color: #F7F9FB;
+  height: 341px;
+ 
+}
+
+.contact__content{  
+  display: block;
+  width: 479px;
+  height: 62px;
+  margin-left: auto;
+  margin-right: auto;
+  
+ }
+
+.contact_post{
+  display:inline-block;
+  margin:0 68px 0 0
+ }
+
+.contact__phone{
+  display:inline-block;
+  margin:0 0 0 68px
+ 
+}
+
+
+.contact__img{
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact_titel {
+  font-family: Roboto;
+  margin: 0 0 2.5px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 147.3%;
+  text-align: center;
+  color: #4F4F4F
+}
+
+.contact_info {
+margin: 2.5px 0 0 0;
+ font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 147.3%;
+text-align: center;
+}
+
+ .team__content{
+   position: relative;
+   height: 895px;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+ 
+ .team__men{
+   display: block;
+   width: 1039px;
+   height: 261px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .team__women{
+  width: 477px;
+  height: 261px;
+  margin-top:60px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ 
+ .team__IvanI{
+  display:inline-block;
+  height: 261px;
+  width: 196px;
+  
+ }
+ .team_AleksS{
+  display:inline-block;
+  height: 261px;
+  width: 196px;
+  margin-left: 81px;
+ 
+ }
+ .team_DenisYa{
+  display:inline-block;
+  height: 261px;
+  width: 196px;
+  margin-left: 81px;
+
+ }
+ .team__NikolaM{
+  display:inline-block;
+  height: 261px;
+  width: 196px;
+  margin-left: 81px;
+ 
+ }
+ .team__IrinaD{
+  display:inline-block;
+  height: 261px;
+  width: 196px;
+ 
+
+ }
+ .team__MariyaS{
+  display:inline-block;
+  height: 261px;
+  width: 196px;
+  margin-left: 81px;
+}
+
+ .team__img{
+   display:block;
+   margin-left: auto;
+  margin-right: auto;
+ }
+ 
+ .team__name{
+  margin:23px 0 4px 0;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 147.3%
+ }
+
+ .team__position{
+  margin:4px 0 0 0;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 147.3%;
+  color: #828282
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
