@@ -48,11 +48,17 @@ top: 0px;
   text-decoration: none;
 }
 
+.header__link a:hover{
+  color:red;
+}
+
 .header__button{
   display: inline-block;
   position:absolute;
   right: 40px;
   top:22px;
+  height: 43px;
+  width: 106px;
   padding: 12px 30px;
   font-family: Roboto;
   font-style: normal;
@@ -63,10 +69,16 @@ top: 0px;
   box-sizing: border-box;
   border-radius: 6px;
   background-color: white;
+  cursor:pointer
+}
+
+.header__button:hover{
+  background-color: green;
+  color:white
 }
 
 .about{
-  height: 733px;
+  height: 653px;
   margin-top:90px;
   margin-left: auto;
   margin-right: auto;
@@ -78,7 +90,7 @@ top: 0px;
   margin-right: auto;
 }
 h1{
-  margin-top:61px;
+  margin:61px 0 15px 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -88,7 +100,8 @@ h1{
   }
 
   h2{
-  margin-top:48px;
+  margin:0;
+  padding:80px 0 0 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -97,7 +110,7 @@ h1{
   text-align: center;
   }
 .about_txt {
-  margin-top:30px;
+  margin:15px 0 0 0;
   width: 925px;
   height: 105px;
   margin-left: auto;
@@ -120,6 +133,7 @@ h1{
   display: block;
   width: 500px;
   height: 62px;
+  margin-top:43px;
   margin-left: auto;
   margin-right: auto;
   position: relative; 
@@ -176,6 +190,7 @@ text-align: center;
  .team__content{
    position: relative;
    height: 895px;
+   margin-top:55px;
    margin-left: auto;
    margin-right: auto;
 
@@ -300,7 +315,20 @@ text-align: center;
  }
  
  
- 
+ .footer__vk img:hover{
+   background:red;
+   opacity: 0.4;
+ }
+
+ .footer__insta img:hover{
+  background:red;
+  opacity: 0.4;
+}
+
+.footer__facebook img:hover{
+  background:red;
+   opacity: 0.4;
+}
  
  
  
