@@ -1,7 +1,9 @@
-   
+body{
+  margin:0;
+ }   
+
 .header{
-position: absolute;
-width: 100%;
+position: relative;
 height: 90px;
 left: 0px;
 top: 0px;
@@ -10,20 +12,26 @@ top: 0px;
 
  .header__logo{
    display: inline-block;
-   position: relative;
+   position: absolute;
    left: 40px;
    top: 31px;
  }
 
  .header__nav {
+  height: 42px;
+  width: 323px;
+  margin-top: auto;
+  margin-bottom: auto;
   display: inline-block;
-  position: relative;
-  top: 22px;
-  margin-left: 776px;
+  position: absolute;
+  top: 35px;
+  right: 186px;
+ 
 }
 .header__list{
   padding: 0;
   margin: 0;
+  
  }
 
  .header__link{
@@ -33,7 +41,8 @@ top: 0px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;   
+  line-height: 19px; 
+    
 }
 .header__link a{
   text-decoration: none;
@@ -41,10 +50,10 @@ top: 0px;
 
 .header__button{
   display: inline-block;
-  margin-left: 40px;
-  position: relative;
+  position:absolute;
+  right: 40px;
+  top:22px;
   padding: 12px 30px;
-  top: 22px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -89,7 +98,6 @@ h1{
   }
 .about_txt {
   margin-top:30px;
-  display: block;
   width: 925px;
   height: 105px;
   margin-left: auto;
@@ -104,34 +112,44 @@ h1{
 .contact{
   background-color: #F7F9FB;
   height: 341px;
+  
  
 }
 
 .contact__content{  
   display: block;
-  width: 479px;
+  width: 500px;
   height: 62px;
   margin-left: auto;
   margin-right: auto;
-  
+  position: relative; 
  }
 
 .contact_post{
-  display:inline-block;
-  margin:0 68px 0 0
+  display:block;
+  margin:0 68px 0 0;
+  position: absolute;
+  right:50%
+  
+
  }
 
 .contact__phone{
-  display:inline-block;
-  margin:0 0 0 68px
+  display:block;
+  margin:0 0 0 68px;
+  position: absolute;
+  left:50%
+  
  
 }
 
 
 .contact__img{
-  display:inline-block;
+  display:block;
   margin-left: auto;
   margin-right: auto;
+  position: absolute;
+  left:50%
 }
 
 .contact_titel {
@@ -247,6 +265,39 @@ text-align: center;
   color: #828282
  }
  
+
+ .footer{
+   height: 124px;
+   background: #3F3D56;
+   position: relative;
+ }
+ .footer__wrapper{
+   position: absolute;
+   top:48px;
+   width: 100%;
+   height: 30px;
+ }
+.footer_social{
+  display: inline-block;
+  height: 30px;
+  width: 130px;
+  position: absolute;
+  right: 42px;
+
+}
+
+ .footer span{
+  position: absolute;
+  top:4px;
+  left: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  opacity: 0.4;
+ }
  
  
  
