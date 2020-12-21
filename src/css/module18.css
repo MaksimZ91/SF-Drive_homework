@@ -160,8 +160,6 @@ h1{
 
 .contact__img{
   display:block;
-  margin-left: auto;
-  margin-right: auto;
   position: absolute;
   left:50%
 }
