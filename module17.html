@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/css/module18.css" rel="stylesheet">
+    <link href="./src/css/module18_19.css" rel="stylesheet">
     <title>About</title>
 </head>
 <body>
@@ -13,6 +13,7 @@
             <img src="./src/img/Logo.svg" alt="logo SkillDrive">
             </a>
         </div>
+        <div class="nav_wrapper">
         <nav class="header__nav">
             <ul  class="header__list">
                 <li class="header__link"><a href="">О нас</a></li>
@@ -22,10 +23,12 @@
         </nav>
         <button class="header__button">Войти</button>
         </div>
+        <img class="mobile_menu" src="./src/img/mobile_menu.svg" alt="mobile_menu">
     </header>
     <main>
         <section class="about">
                 <img class="about__img" src="./src/img/team.svg" alt="image team">
+                <img class="about__img-mobile" src="./src/img/team_mobile.svg" alt="image team_mobile">
                 <h1>О нас</h1>
                 <p class="about_txt">Это учебный проект, созданный с целью получения боевого опыта в разработке<br>
                                     настоящего живого веб-приложения. Этот сервис имитирует работу каршеринга,<br>
@@ -49,46 +52,51 @@
         <section class="team">
                 <h2>Команда</h2>
                 <div class="team__content">
-                <div class="team__men">
-                    <div class="team__IvanI">
-                        <img class="team__img" src="./src/img/IvanI.svg" alt="Иван Иванов">
-                        <p class="team__name">Иван Иванов</p>
-                        <p class="team__position">СЕО</p>
+                    <div class="team__men">
+                        <div class="team__IvanI">
+                                <img class="team__img" src="./src/img/IvanI.svg" alt="Иван Иванов">
+                                <img class="team_img-mobile" src="./src/img/IvanI_mobile.svg" alt="Иван Иванов">
+                                <p class="team__name">Иван Иванов</p>
+                                <p class="team__position">СЕО</p>
+                            </div>
+                            <div class="team_AleksS">
+                                <img class="team__img" src="./src/img/AlekseyS.svg" alt="Алексей Смирнов">
+                                <img class="team_img-mobile" src="./src/img/AlekseyS_mobile.svg" alt="Алексей Смирнов">
+                                <p class="team__name">Алексей Смирнов</p>
+                                <p class="team__position">Frontend-разработчик</p>
+                            </div>
+                            <div class="team_DenisYa">
+                                <img class="team__img" src="./src/img/DenisYa.svg" alt="Денис Ярцев">
+                                <img class="team_img-mobile" src="./src/img/DenisYa_mobile.svg" alt="Денис Ярцев">
+                                <p class="team__name">Денис Ярцев</p>
+                                <p class="team__position">Backend-разработчик</p>
+                            </div>
+                            <div class="team__NikolaM">
+                                <img class="team__img" src="./src/img/NikolaM.svg" alt="Николай Морозов">
+                                <img class="team_img-mobile" src="./src/img/NikolaM_mobile.svg" alt="Николай Морозов">
+                                <p class="team__name">Николай Морозов</p>
+                                <p class="team__position">Дизайнер</p>
+                            </div>
                     </div>
-                    <div class="team_AleksS">
-                        <img class="team__img" src="./src/img/AlekseyS.svg" alt="Алексей Смирнов">
-                        <p class="team__name">Алексей Смирнов</p>
-                        <p class="team__position">Frontend-разработчик</p>
+                    <div class="team__women">
+                        <div class="team__IrinaD">
+                            <img class="team__img" src="./src/img/IrinaD.svg" alt="Ирина Деева">
+                            <img class="team_img-mobile" src="./src/img/IrinaD_mobile.svg" alt="Ирина Деева">
+                            <p class="team__name">Ирина Деева</p>
+                            <p class="team__position">Копирайтер</p>
+                        </div>
+                        <div class="team__MariyaS">
+                            <img class="team__img" src="./src/img/MariyaS.svg" alt="Мария Стрелкова">
+                            <img class="team_img-mobile" src="./src/img/MariyaS_mobile.svg" alt="Мария Стрелкова">
+                            <p class="team__name">Мария Стрелкова</p>
+                            <p class="team__position">SMM</p>
+                        </div>
                     </div>
-                    <div class="team_DenisYa">
-                        <img class="team__img" src="./src/img/DenisYa.svg" alt="Денис Ярцев">
-                        <p class="team__name">Денис Ярцев</p>
-                        <p class="team__position">Backend-разработчик</p>
-                    </div>
-                    <div class="team__NikolaM">
-                        <img class="team__img" src="./src/img/NikolaM.svg" alt="Николай Морозов">
-                        <p class="team__name">Николай Морозов</p>
-                        <p class="team__position">Дизайнер</p>
-                    </div>
-                </div>
-                <div class="team__women">
-                    <div class="team__IrinaD">
-                        <img class="team__img" src="./src/img/IrinaD.svg" alt="Ирина Деева">
-                        <p class="team__name">Ирина Деева</p>
-                        <p class="team__position">Копирайтер</p>
-                    </div>
-                    <div class="team__MariyaS">
-                        <img class="team__img" src="./src/img/MariyaS.svg" alt="Мария Стрелкова">
-                        <p class="team__name">Мария Стрелкова</p>
-                        <p class="team__position">SMM</p>
-                    </div>
-                 <div>
                 </div>           
         </section>
     </main>
     <footer>
-        <div class="footer">
-            <div class="footer__wrapper">
+        <div class="footer__wrapper">
             <span>© SkillDrive Inc. 2020</span>
             <div class="footer_social">
                 <a class="footer__vk" href="" target="_blank" aria-label="Вы сфокусированы на ссылки которая ведет на сайт Vkontakte">
@@ -97,7 +105,6 @@
                     <img src="./src/img/instagram.svg" alt="logo instagram"></a>
                 <a class="footer__facebook" href="" target="_blank" aria-label="Вы сфокусированы на ссылки которая ведет на сайт facebook">
                     <img src="./src/img/facebook.svg" alt="logo facebook"></a>
-                </div>
             </div>
         </div>
     </footer>
