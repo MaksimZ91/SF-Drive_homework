@@ -14,3 +14,4 @@
 [1228/110528.289:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
 [1228/112435.082:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
 [1228/135325.670:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0110/141259.157:ERROR:settings.cc(325)] Settings version is not 1

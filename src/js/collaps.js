@@ -1,6 +1,7 @@
-const qustionList =document.querySelectorAll('.question_quest')
 
-qustionList.forEach((element, index)=>{
+ const qustionList=document.querySelectorAll('.question_quest');
+ export function collaps (){
+  qustionList.forEach((element, index)=>{
   element.addEventListener('click',function (){
     this.classList.toggle("active");
   let content = this.nextElementSibling;
@@ -9,6 +10,5 @@ qustionList.forEach((element, index)=>{
   } else {
     content.style.display = "block";}
   })
-})
-
+})}
 
